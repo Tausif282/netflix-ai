@@ -1,7 +1,11 @@
-import "./App.css";
+import Body from "./component/Body";
 
 function App() {
-  return <div className="text-blue-700 text-5xl">Learn React</div>;
+  return (
+    <div>
+      <Body />
+    </div>
+  );
 }
 
 export default App;
